@@ -7,7 +7,12 @@ A simple node starter to get going quickly
 yarn
 ```
 
-## Run both tsc --watch and nodemon
+## Run src/index.ts
 ```bash
 yarn dev
+```
+
+## Build project
+```bash
+yarn build
 ```
