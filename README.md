@@ -1,6 +1,6 @@
 # node-ts-starter
 
-A simple node starter to get going quickly
+A simple node starter to get going quickly (also includes express)
 
 ## install the dependancies:
 ```bash
