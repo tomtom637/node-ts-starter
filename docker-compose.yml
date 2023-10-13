@@ -1,0 +1,24 @@
+version: "1.0"
+
+services:
+  node:
+    volumes:
+      - ./build:/home/node/app/build
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /home/node/app
+    environment:
+      - NODE_ENV=production
+      - PORT=3637
+    ports:
+      - 3037:3637
+
+    # 🚤 classic
+    # command: node ./build/index.js
+
+    # 🏝️ for development
+    # command: npx nodemon ./build/index.js
+
+    # 🌋 for production
+    command: pm2-runtime ./build/index.js
