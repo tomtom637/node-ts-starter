@@ -16,3 +16,9 @@ yarn dev
 ```bash
 yarn build
 ```
+
+## Dockerize
+after having built the project
+```bash
+docker-compose up
+```
