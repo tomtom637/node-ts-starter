@@ -4,17 +4,17 @@ A simple node starter to get going quickly (also includes express)
 
 ## install the dependancies:
 ```bash
-yarn
+npm i
 ```
 
 ## Run src/index.ts
 ```bash
-yarn dev
+npm run dev
 ```
 
 ## Build project
 ```bash
-yarn build
+npm run build
 ```
 
 ## Dockerize
