@@ -1,0 +1,6 @@
+node_modules
+nodemon.json
+README.md
+.vscode
+dev_Dockerfile
+dev_docker-compose.yml
